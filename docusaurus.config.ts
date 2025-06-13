@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '琅菱工作室',
+  title: 'wllang',
   tagline: '琅菱工作室开放开源，基础研究共勉！',
   favicon: 'img/favicon.ico',
 
@@ -65,12 +65,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/wllang-social-card.jpg',
     navbar: {
       title: '琅菱工作室',
       logo: {
-        alt: '琅菱工作室 Logo',
-        src: 'img/logo.svg',
+        alt: 'wllang Logo',
+        src: 'img/logo.jpg',
       },
       items: [
         {
@@ -88,36 +88,6 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/poorse/website',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Wllang, Inc. Built with 琅菱工作室.`,
     },
     prism: {
